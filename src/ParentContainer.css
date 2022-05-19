@@ -1,0 +1,32 @@
+.parent-todo {
+  min-width: 500px;
+  height: 500px;
+  background-color: #2e3b4e;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.top-sel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name-shakh {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.name-shakh h2 {
+  font-size: 28px;
+  color: #fff;
+}
+
+.main-ul {
+  margin-top: 15px;
+  list-style-type: none;
+  max-height: 300px;
+  overflow-y: scroll;
+}

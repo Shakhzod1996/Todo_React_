@@ -1,0 +1,43 @@
+.input-enter {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input-enter {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-enter input {
+  background-color: #465665;
+  border: none;
+  padding: 12px 25px;
+  width: 280px;
+  border-radius: 25px;
+  outline: none;
+  color: #fff;
+  font-size: 18px;  
+}
+
+.add-btn {
+  margin-left: 15px;
+  padding: 12px;
+  background-color: #465665;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.add-btn:hover {
+  color: rgb(14, 183, 255);
+}

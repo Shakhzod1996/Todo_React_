@@ -1,0 +1,61 @@
+.li {
+  width: 90%;
+  margin: auto;
+  padding: 13px;
+  background-color: #394b5a;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all .4s ease;
+}
+
+.li:hover {
+  background-color: #324352;
+  cursor: pointer;
+}
+
+.removeAnime {
+  transform: translateX(30px);
+  opacity: 0;
+}
+
+.right-desc {
+  display: flex;
+  align-items: center;
+}
+
+.right-desc > i {
+  margin-right: 10px;
+  transition: all .4s ease;
+  font-size: 20px;
+}
+
+.selected {
+  color: lightgreen;
+}
+
+.p-selected {
+  text-decoration: line-through;
+  color: lightgreen;
+}
+
+.right-desc > i:hover {
+  color: lightgreen;
+  cursor: pointer;
+}
+
+.left-delete i {
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.left-delete i:hover {
+  color: red;
+}

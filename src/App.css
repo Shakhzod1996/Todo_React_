@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-content: center;
+  justify-content: center;
+  background-color: #eee;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #465665;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2e3b4e;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer;
+}
+
